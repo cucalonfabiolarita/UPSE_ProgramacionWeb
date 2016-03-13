@@ -1,27 +1,46 @@
 
+/*****************
+GENERAL
+**********/
 a{
 	text-decoration: none;
 }
-#wrapper{
+#wrapper {
 	max-width: 940px;
 	margin: 0 auto;
 	padding: 0 5%;
 	background: blue;
 }
 
+
+/**************
+header
+********/
+header {
+	background: #0066ff;
+	border-color: #048404;
+}
 #logo { text-align: center;
 	margin: 0; 
 }
-header {
-	background: #862D663;
-	border-color: #913059;
+h2 {
+	color: #512C73;
 }
-h1,h2 {
-	color: #fff;
-}
+h1 { font-family: 'pacifico',sans-serif;
+  margin:15px 0;
+  font-size: 1.75em;
+  font-weight: normal;
+   line-height: 0.8em;
+ }
+
+/*NAVIGATION*/
 nav{
 	background: #2266666;
 }
-nav a, nav a:visited{
+nav a, nav a:visited {
 	color: #519331;
 	}
+nav a.selected {
+	color: #32673f;
+}
+nav a:hover{color:#32673f;}
