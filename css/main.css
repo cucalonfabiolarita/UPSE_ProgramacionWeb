@@ -80,3 +80,8 @@ nav ul { list-style: none;
 .social-icon { width: 30px;
 		height: 30px;
 		margin: 0 5px;}
+
+.profile-photo{ display:block;
+max-width:300px;
+         margin:0 auto 80px;
+         border-radius: 100%;}
