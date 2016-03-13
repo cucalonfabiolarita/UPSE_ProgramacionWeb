@@ -9,36 +9,52 @@ a{
 	max-width: 940px;
 	margin: 0 auto;
 	padding: 0 5%;
-	background: blue;
+	background: orange;
 }
+img {  max-width: 100%;}
+
 
 
 /**************
 header
 ********/
 header {
-	background: #0066ff;
-	border-color: #048404;
+	background: #AAA839;
+	border-color: blue;
 }
 #logo { text-align: center;
 	margin: 0; 
 }
 h2 {
-	color: #512C73;
+	color: blue;
 }
 h1 { font-family: 'pacifico',sans-serif;
   margin:15px 0;
   font-size: 1.75em;
   font-weight: normal;
-   line-height: 0.8em;
+   line-height: 2em;
  }
+ #galeria {margin:0;
+ padding:0;
+ list-style:none;}
+ #galeria li{ float: left;
+ 	width:45%;
+ 	margin:2.5%;
+ 	background-color: #f5f5f5;
+ 	color:#bdc3c7;
+ }
+
+ #galeria li a p {margin:0;
+ 	padding:5%;
+ 	font-size:0.75em;
+ 	color:#bdc3c7;}
 
 /*NAVIGATION*/
 nav{
-	background: #2266666;
+	background: #AA4439;
 }
 nav a, nav a:visited {
-	color: #519331;
+	color: black;
 	}
 nav a.selected {
 	color: #32673f;
