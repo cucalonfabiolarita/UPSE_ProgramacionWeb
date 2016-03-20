@@ -114,7 +114,10 @@ contacto
 .contact-info li.twitter a{
 	background-image: url('../img/twitter-wrap.png');}
 
-/**  ajustando la navegacion**/
+/**  ajustando la navegacion
+ajustemos un poco la navegacion para nuestros sitios en pantalla mayores a 66opx
+
+**/
 nav {
 	background: none;
 	float:right;
