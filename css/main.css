@@ -6,10 +6,10 @@ a{
 	text-decoration: none;
 }
 #wrapper {
-	max-width: 920px;
+	max-width: 940px;
 	margin: 0 auto;
 	padding: 0 5%;
-	background: orange;
+	
 }
 img {  max-width: 100%;}
 
@@ -24,7 +24,9 @@ header { float: left;
 	width: 100%;
 	background: #AAA839;
 	border-color: blue;
+	clear: both;
 }
+
 #logo { text-align: center;
 	margin: 0; 
 }
@@ -112,5 +114,13 @@ contacto
 .contact-info li.twitter a{
 	background-image: url('../img/twitter-wrap.png');}
 
-
+/**  ajustando la navegacion**/
+nav {
+	background: none;
+	float:right;
+	font-size: 1.125em;
+	margin-right: 5%;
+	text-align: right;
+	width: 45%;
+}
 	
